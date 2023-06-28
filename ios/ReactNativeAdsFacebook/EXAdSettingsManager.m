@@ -126,7 +126,7 @@ RCT_EXPORT_METHOD(requestTrackingPermission:(RCTPromiseResolveBlock)resolve reje
 
 RCT_EXPORT_METHOD(setAdvertiserIDCollectionEnabled:(BOOL)enabled)
 {
-    [FBSDKSettings setAdvertiserIDCollectionEnabled:enabled];
+    //[FBSDKSettings setAdvertiserIDCollectionEnabled:enabled];
 }
 
 
